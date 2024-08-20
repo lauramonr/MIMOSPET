@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MimoPet</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa; /* Azul cielo */
+        }
+        
+        header {
+            background-color: #81d4fa; /* Azul cielo más oscuro */
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-family: 'Pacifico', cursive; /* Fuente linda */
+            font-size: 3em;
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #01579b; /* Azul más oscuro */
+        }
+
+        .service-card, .product-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 20px;
+            display: inline-block;
+            width: 300px;
+            vertical-align: top;
+        }
+
+        .service-card img, .product-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .service-card button, .product-card button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #81d4fa;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .service-card button:hover, .product-card button:hover {
+            background-color: #0288d1;
+        }
+
+        footer {
+            background-color: #01579b; /* Azul más oscuro */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MimoPet</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Productos</a>
+            <a href="#">Galería</a>
+            <a href="#">Contacto</a>
+            <a href="#">Sobre Nosotros</a>
+        </nav>
+    </header>
+
+    <div class="section" id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="service-card">
+            <img src="https://via.placeholder.com/300" alt="Estética Canina y Felina">
+            <h3>Estética Canina y Felina</h3>
+            <p>Corte y peinado profesional para perros y gatos.</p>
+            <button>Más información</button>
+        </div>
+        <div class="service-card">
+            <img src="https://via.placeholder.com/300" alt="Spa de Mascotas">
+            <h3>Spa de Mascotas</h3>
+            <p>Relajación total con nuestros tratamientos de spa.</p>
+            <button>Más información</button>
+        </div>
+        <!-- Añadir más tarjetas de servicios si es necesario -->
+    </div>
+
+    <div class="section" id="productos">
+        <h2>Productos Destacados</h2>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300" alt="Producto 1">
+            <h3>Shampoo para Mascotas</h3>
+            <p>$20.000</p>
+            <button>Añadir al Carrito</button>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300" alt="Producto 2">
+            <h3>Juguete Masticable</h3>
+            <p>$15.000</p>
+            <button>Añadir al Carrito</button>
+        </div>
+        <!-- Añadir más tarjetas de productos si es necesario -->
+    </div>
+
+    <footer>
+        <p>© 2024 MimoPet. Todos los derechos reservados.</p>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+    </footer>
+
+</body>
+</html>
